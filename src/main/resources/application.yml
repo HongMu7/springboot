@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.10.32.161:3306/springboot
+    username: root
+    password: 123456
+    schema:
+      -classpath:department.sql
